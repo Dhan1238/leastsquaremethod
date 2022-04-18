@@ -5,7 +5,7 @@ import pandas as pd
 import statistics
 import matplotlib.pyplot as plt
 #importing the dataset
-dataset = pd.read_csv("C:\\Users\\S.MAHESH\\Desktop\\MACHINE L\\Book1.csv")
+dataset = pd.read_csv("PATH")
 
 n = len(dataset.axes[0]) #getting number of rows
 yr = dataset["x"].tolist()
